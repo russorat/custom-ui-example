@@ -1,0 +1,18 @@
+{
+  "name": "tta-server",
+  "version": "0.0.1",
+  "description": "the server for time to awesome",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Russ Savage",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "@influxdata/influxdb-client": "^1.6.0",
+    "@influxdata/influxdb-client-apis": "^1.6.0"
+  }
+}
